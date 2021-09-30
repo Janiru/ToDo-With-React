@@ -7,12 +7,16 @@
 
 body
 {
-    background:#191919;
+    background: rgb(255,181,234);
+background: linear-gradient(236deg, rgba(255,181,234,1) 0%, rgba(219,251,255,1) 33%, rgba(226,255,236,1) 66%, rgba(255,240,252,1) 100%, rgba(255,236,251,1) 100%);
     font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
     min-width: 100vh;
+    height: 100vh;
 }
 body header h1{
-    color: #dd6418;
+    color: #ff6200;
     ;          
 }
 
@@ -37,7 +41,7 @@ form button
     font-size: 2rem;
     font-weight: 500;
     border: none;
-    background: #474747;
+    background: #ffffff;
     color: #919191;
     text-align: center;
     
@@ -51,15 +55,16 @@ form input:focus
 form button
 {
     color: rgb(122 61 0);
-    background: #c15511;
+    background: #e76717;
     cursor: pointer;
+    color: #ffffff;
     transition: all 0.3s ease;
 
 }
 form button:hover
 {
-    background: #474747;
-    color: #d46a28;
+    background: #ff740296;
+    color: #fa690f;
 }
 .todo-container
 {
@@ -75,8 +80,8 @@ form button:hover
 .todo
 {
     margin: 0.5rem;
-    background: #474747;
-    color: #919191;
+    background: #ffffff;
+    color: #464646;
     text-align: center;
     font-size: 1.5rem;
     display: flex;
@@ -86,7 +91,7 @@ form button:hover
 }
 .todo:hover
 {
-    background: #474747c9;
+    background: rgb(241, 241, 241);
 }
 .todo li
 {
@@ -94,7 +99,7 @@ form button:hover
 }
 .trash-btn, .complete-btn
 {
-    background: #481c00;
+    background: #ff640477;
     color: #e76311;
     border: none;
     padding: 1rem;
@@ -105,7 +110,7 @@ form button:hover
 .complete-btn
 {
     background: #e76311;
-    color: #515151;
+    color: #ffffff;
 }
 .complete-btn:hover
 {
@@ -151,7 +156,7 @@ select
 }
 select 
 {
-    background: #474747;
+    background: #ffffff;
     color: #919191;
     width: 10rem;
     cursor: pointer;
@@ -162,7 +167,7 @@ select
     content: "\25BC";
     position: absolute;
     color: rgb(122 61 0);
-    background: #c15511;
+    background: #ff6505;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -172,8 +177,8 @@ select
 
 .select:hover::after
 {
-    background: #474747;
-    color: #d36926;
+    background: #ff5e0081;
+    color: #ff6200;
 }
 select option
 {
