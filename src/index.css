@@ -12,7 +12,6 @@ background: linear-gradient(236deg, rgba(255,181,234,1) 0%, rgba(219,251,255,1) 
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 100vh;
     height: 100vh;
 }
 body header h1{
@@ -190,19 +189,25 @@ select {
     justify-content: center;
    }
 
-@media (max-width: 376px)
+@media (max-width: 550px)
 {
     header
     {   
-        font-size: 1rem;
-        justify-content: left;
+        font-size: 1.3rem;
+        justify-content: center;
     }
 
+    form{
+        flex-direction: column;
+    }
+    .formm {
+        display: flex;
+    }
     form input,
     form button
     {
     padding: 0.2rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     }
 }
